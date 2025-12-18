@@ -28,6 +28,9 @@ const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
     origin: [
+      "https://healix-doctor-appointment-system-t3.vercel.app",
+      "https://healix-doctor-appointment-system-git-3241ea-dharwin-ss-projects.vercel.app",
+      "https://healix-doctor-appointment-system-t3yr-6ksucforh.vercel.app",
       "https://healix-rho.vercel.app",
       "https://healix-git-main-dharwin-ss-projects.vercel.app",
       "https://healix-alpha.vercel.app",
@@ -41,6 +44,9 @@ const io = socketIo(server, {
 
 app.use(cors({
   origin: [
+    "https://healix-doctor-appointment-system-t3.vercel.app",
+    "https://healix-doctor-appointment-system-git-3241ea-dharwin-ss-projects.vercel.app",
+    "https://healix-doctor-appointment-system-t3yr-6ksucforh.vercel.app",
     "https://healix-rho.vercel.app",
     "https://healix-git-main-dharwin-ss-projects.vercel.app",
     "https://healix-alpha.vercel.app",
