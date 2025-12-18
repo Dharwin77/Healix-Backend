@@ -16,7 +16,6 @@ class DoctorController {
       doctor.address.city &&
       doctor.address.state &&
       doctor.address.zipCode &&
-      doctor.medicalLicenseNumber &&
       Array.isArray(doctor.specializations) &&
       doctor.specializations.length > 0 &&
       doctor.yearsOfExperience !== undefined &&
@@ -552,7 +551,7 @@ class DoctorController {
   static calculateProfileCompletion(doctor) {
     const requiredFields = [
       'firstName', 'lastName', 'email', 'phoneNumber', 'dateOfBirth', 
-      'gender', 'medicalLicenseNumber', 'yearsOfExperience', 'bio'
+      'gender', 'yearsOfExperience', 'bio'
     ];
     
     const addressFields = ['street', 'city', 'state', 'zipCode'];

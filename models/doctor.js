@@ -170,7 +170,6 @@ doctorSchema.methods.checkProfileCompletion = function () {
       this.phoneNumber
     ),
     professionalInfo: !!(
-      this.medicalLicenseNumber &&
       this.specializations.length > 0 &&
       this.yearsOfExperience >= 0
     ),
