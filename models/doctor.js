@@ -59,7 +59,6 @@ const doctorSchema = new mongoose.Schema(
     // Professional Information
     medicalLicenseNumber: {
       type: String,
-      unique: true,
     },
     specializations: [
       {
