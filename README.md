@@ -7,7 +7,7 @@
 
 ## Abstract
 
-Healthcare management requires efficient, user-friendly platforms that connect patients with healthcare providers seamlessly. Healix is a comprehensive healthcare management system designed to streamline the entire healthcare journey—from appointment scheduling and doctor-patient communication to virtual therapy sessions and medical record management. The platform emphasizes accessibility, security, and real-time communication, providing an integrated solution for patients, doctors, and administrators
+Healthcare management requires efficient, user-friendly platforms that connect patients with healthcare providers seamlessly. Healix is a comprehensive healthcare management system designed to streamline the entire healthcare journey—from appointment scheduling and doctor-patient communication to virtual therapy sessions and medical record management. The platform emphasizes accessibility, security, and real-time communication, providing an integrated solution for patients, doctors, and administrators.
 
 ## Project Overview
 
@@ -521,5 +521,6 @@ For issues, questions, or feature requests, please:
 ---
 
 **⚠️ Disclaimer**: Healix is a healthcare management platform. Always consult with qualified healthcare professionals for medical advice, diagnosis, or treatment.
+
 
 
